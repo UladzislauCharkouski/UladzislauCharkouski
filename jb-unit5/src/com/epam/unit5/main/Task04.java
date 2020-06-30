@@ -8,7 +8,7 @@ public class Task04 {
 		enterArrayWithRandom(mas);
 		findCountForNextArray(mas);
 		System.out.println();
-		//System.out.println("Массив с чётными числами");
+		//System.out.println("ГЊГ Г±Г±ГЁГў Г± Г·ВёГІГ­Г»Г¬ГЁ Г·ГЁГ±Г«Г Г¬ГЁ");
 		findDigitsCreateArray(mas);	
 	}
 		public static void enterArrayWithRandom(int[] mas) {
@@ -41,9 +41,9 @@ public class Task04 {
 			}
 			
 			if (newMass.length == 0) {
-				System.out.println("В массиве нету чётных чисел");
+				System.out.println("Г‚ Г¬Г Г±Г±ГЁГўГҐ Г­ГҐГІГі Г·ВёГІГ­Г»Гµ Г·ГЁГ±ГҐГ«");
 			} else {
-				System.out.println("Массив с чётными числами");
+				System.out.println("ГЊГ Г±Г±ГЁГў Г± Г·ВёГІГ­Г»Г¬ГЁ Г·ГЁГ±Г«Г Г¬ГЁ");
 			}
 			for (int i = 0; i < newMass.length; i++) {
 				System.out.println("newMass[" + i + "]=" + newMass[i] + "; ");
@@ -51,3 +51,4 @@ public class Task04 {
 			return newMass;
 		}
 }
+// Р·Р°РґР°С‡Рё РјРѕРґСѓР»СЏ 5 Р·Р°С‡С‚РµРЅС‹

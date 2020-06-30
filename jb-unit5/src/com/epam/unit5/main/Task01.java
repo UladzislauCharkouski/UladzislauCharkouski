@@ -7,7 +7,7 @@ public class Task01 {
 		int[] A = new int[10];
 		enterArrayWithRandom(A);
 		int sum = CalculateSum(A);
-		System.out.println("����� ����� ������� � = " + sum);
+		System.out.println("Ñóììà ÷èñåë êðàòíûõ Ê = " + sum);
 	}
 		public static void enterArrayWithRandom(int[] A) {
 			Random rand = new Random();
@@ -16,7 +16,7 @@ public class Task01 {
 				System.out.println("A[" + i + "]=" + A[i] + "; ");
 			}
 		}
-		public static int CalculateSum(int[] A) {
+		public static int CalculateSum(int[] A) {// аккуратней с форматирование, ну и не игнорируйте java code convention int calculateSum(int[] a)
 			int K = 2;
 			int sum = 0;
 			for (int i = 0; i < A.length; i++) {
